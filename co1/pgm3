@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Frames</title>
+</head>
+<frameset rows="50%,*">
+<frame src="page1.html">
+<frame src="page2.html">
+</frameset>
+</html>
+#Page1.html:
+<html>
+<body bgcolor="orange">
+<h1><font color="black"><center>places</center></font></h1>
+</body>
+</html>
+#Page2.html:
+<html>
+<body bgcolor="brown">
+<h2><u><b><font color="orange">Delhi</font></h1></u></b>
+<i>Delhi,India's capital territory,is a massive metropolitan area in the country's north</i>
+<h5>Places in delhi are</h5>
+<ul type="square"><li>India Gate</li>
+<li>Red Fort</li>
+<li>Qutab Minar</li>
+</ul>
+<iframe src="page3.html" width="700" height="100"></iframe>
+</body>
+</html>
+#Page3.html:
+<html>
+<body bgcolor="green">
+<i><font color="yellow">Jammu and Kashmir</font></i>
+<p><i>Jammu and Kashmir is a region administrated by india as a union territory and consists
+ of the southern portion of the larger kashmir region, which has been the subject of a 
+ dispute between india and pakistan since 1947, and between India and China since 1962</p></i>
+<h5>places in Jammu and Kashmir are</h5>
+<ul type="circle">
+<li>Dal Lake</li>
+<li>Sonamarg</li>
+<li>Khardung La</li>
+</ul>
+</body>
+</html>
